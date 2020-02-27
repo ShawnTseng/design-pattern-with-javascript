@@ -1,16 +1,26 @@
 // Object Type1:
-var task1 = {};
+var task = {};
 
-task1.title = "My Task1";
-task1.description = "My Description1";
-Object.defineProperty(task1, "showDetail", {
+task.title = "My Task1";
+task.description = "My Description1";
+Object.defineProperty(task, "showDetail", {
   value: function() {
     return this.title + " " + this.description;
   },
-  writable: true,
+  writable: false,
   enumerable: true,
   configurable: true
 });
 
-console.log(task1);
-console.log(task1.showDetail());
+// Inherit from task
+var urgentTask = Object.create(task);
+Object.defineProperty(urgentTask, "showDetail", {
+  value: function() {
+    return this.title + " is very urgent";
+  },
+  writable: false,
+  enumerable: true,
+  configurable: true
+});
+
+console.log(urgentTask.showDetail());
