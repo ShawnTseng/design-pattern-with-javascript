@@ -1,4 +1,4 @@
-var Repo = require("./task-repository");
+var repoFactory = require("./repoFactoryCache");
 
 var Task = function(data) {
   this.name = data.name;
@@ -12,7 +12,7 @@ Task.prototype.complete = function() {
 
 Task.prototype.save = function() {
   console.log("saving Task: " + this.name);
-  Repo.save(this);
+  repoFactory.getRepo("task").save(this);
 };
 
 module.exports = Task;
