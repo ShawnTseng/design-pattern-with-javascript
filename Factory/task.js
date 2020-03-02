@@ -12,7 +12,7 @@ Task.prototype.complete = function() {
 
 Task.prototype.save = function() {
   console.log("saving Task: " + this.name);
-  repoFactory.getRepo("task").save(this);
+  repoFactory.task.save(this);
 };
 
 module.exports = Task;
