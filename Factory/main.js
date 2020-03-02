@@ -1,11 +1,9 @@
 var Task = require("./task");
-var taskRepo = require("./task-repository");
-var userRepo = require("./user-repository");
-var projectRepo = require("./project-repository");
+var repoFactory = require("./repoFactory");
 
-var task1 = new Task(taskRepo.get(1));
-var user = userRepo.get(1);
-var project = projectRepo.get(1);
+var task1 = new Task(repoFactory.getRepo("task").get(1));
+var user = repoFactory.getRepo("user").get(1);
+var project = repoFactory.getRepo("project").get(1);
 
 task1.user = user;
 task1.project = project;
