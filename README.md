@@ -5,3 +5,5 @@ node task.js
 node constructor.js
 
 node prototypes.js
+
+node constructor-node/main.js
