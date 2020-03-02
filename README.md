@@ -12,3 +12,5 @@ node Constructor/es6-class/main.js
 
 ## Module Pattern
 node Module/main.js
+
+## Factory Pattern
