@@ -4,6 +4,7 @@ var Task = function(name) {
 };
 
 Task.prototype.complete = function() {
+  this.completed = true;
   console.log(`completing task: ${this.name}`);
 };
 

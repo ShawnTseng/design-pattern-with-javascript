@@ -27,4 +27,5 @@ node Singleton/main.js
 # Behavioral Pattern
 
 ## Decorator Pattern
-node Decorator/task.js
+node Decorator/decorator-simple.js
+node Decorator/decorator-complex.js
