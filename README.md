@@ -23,3 +23,8 @@ node Factory/main.js
 ## Singleton Pattern
 
 node Singleton/main.js
+
+# Behavioral Pattern
+
+## Decorator Pattern
+node Decorator/task.js
