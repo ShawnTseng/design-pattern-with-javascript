@@ -24,8 +24,10 @@ node Factory/main.js
 
 node Singleton/main.js
 
-# Behavioral Pattern
+# Structural Pattern
 
 ## Decorator Pattern
 node Decorator/decorator-simple.js
 node Decorator/decorator-complex.js
+
+# Behavioral
