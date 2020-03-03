@@ -30,4 +30,7 @@ node Singleton/main.js
 node Decorator/decorator-simple.js
 node Decorator/decorator-complex.js
 
+## Facade Pattern
+node Facade/task.js
+
 # Behavioral
