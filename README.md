@@ -33,4 +33,7 @@ node Decorator/decorator-complex.js
 ## Facade Pattern
 node Facade/task.js
 
+## Flyweight Pattern
+node Flyweight/main.js
+
 # Behavioral
