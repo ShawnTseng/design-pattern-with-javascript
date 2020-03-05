@@ -21,6 +21,20 @@ var auditingService = function() {
   };
 };
 
+function ObserverList() {
+  this.observerList = [];
+}
+
+ObserverList.prototype.add = function(obj) {
+  return this.observerList.push(obj);
+};
+
+ObserverList.prototype.get = function(index) {
+  if (index > -1 && this.observerList.length) {
+    return this.observerList[index];
+  }
+};
+
 var task1 = new Task({ name: "create a demo fro constructors", user: "Shawn" });
 
 task1.save();
