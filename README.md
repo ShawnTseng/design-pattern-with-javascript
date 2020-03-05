@@ -37,3 +37,6 @@ node Facade/task.js
 node Flyweight/main.js
 
 # Behavioral
+
+## Observer Pattern
+node Observer/main.js
