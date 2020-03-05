@@ -79,7 +79,7 @@ ObservableTask.prototype.save = function() {
 };
 
 var task1 = new ObservableTask({
-  name: "create a demo for constructors",
+  name: "create a demo for observers",
   user: "Shawn"
 });
 

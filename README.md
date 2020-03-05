@@ -40,3 +40,6 @@ node Flyweight/main.js
 
 ## Observer Pattern
 node Observer/main.js
+
+## Mediator
+node Mediator/main.js
