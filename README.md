@@ -43,3 +43,5 @@ node Observer/main.js
 
 ## Mediator
 node Mediator/main.js
+
+## Command Pattern
